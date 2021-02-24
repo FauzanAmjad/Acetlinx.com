@@ -1,0 +1,331 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+      
+        Acetlinx &middot; Educate. Inform. Create. 
+      
+    </title>
+
+    
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+    
+
+    
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+
+
+<body>
+  
+
+
+
+<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+  <ul class="nav nav-bordered nav-stacked flex-column">
+    <li class="nav-header">Menu</li>
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Course/AP Comp Sci A MasterClass/PUBLISHED/Home.html">Course</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://github.com/acetlinx/AP-Computer-Science-A-MasterClass">GitHub</a>
+    </li>
+    <li class="nav-divider"></li>
+    <li class="nav-header">About</li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.linkedin.com/in/fauzanamjad/">Author</a>
+    </li>
+  </ul>
+</div>
+
+<div class="stage" id="stage">
+
+<div class="block block-inverse block-fill-height app-header"
+     style="background-image: url(assets/img/startup-1.jpg);">
+
+  <div class="container py-4 fixed-top app-navbar">
+  <nav class="navbar navbar-transparent navbar-padded navbar-toggleable-sm">
+    <button
+      class="navbar-toggler navbar-toggler-right hidden-md-up"
+      type="button"
+      data-target="#stage"
+      data-toggle="stage"
+      data-distance="-250">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand mr-auto" href="">
+      <strong style="background: #fff; padding: 12px; border-radius: 4px; color: #28669F;">ACETLINX</strong>
+    </a>
+
+    <div class="hidden-sm-down text-uppercase">
+      <ul class="navbar-nav">
+        <li class="nav-item px-1 ">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item px-1 ">
+          <a class="nav-link" href="Course/AP Comp Sci A MasterClass/PUBLISHED/Home.html">Course</a>
+        </li>
+        <li class="nav-item px-1 ">
+          <a class="nav-link" href="https://github.com/acetlinx/AP-Computer-Science-A-MasterClass">GitHub</a>
+        </li>
+        <li class="nav-item px-1 ">
+          <a class="nav-link" href="https://www.linkedin.com/in/fauzanamjad/">Author</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+  <img class="app-graph"  src="assets/img/startup-0.svg">
+
+  <div class="block-xs-middle pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-lg-6">
+          <h1 class="block-titleData frequency">Acetlinx</h1>
+          <p class="lead mb-4 text-muted">Educate. Inform. Create.</p>
+          <button class="btn btn-primary btn-lg" onclick="window.location.href='Course/AP Comp Sci A MasterClass/PUBLISHED/Home.html';">Start Learning</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block block-secondary app-iphone-block">
+  <div class="container">
+    <div class="row app-align-center">
+
+      <div class="col-sm-5 hidden-sm-down">
+        <img class="app-iphone" src="assets/img/startup-2.jpg" style="width: 100%;">
+      </div>
+
+      <div class="col-md-6 offset-md-1 col-sm-12 offset-sm-0">
+        <h6 class="text-muted text-uppercase">Acetlinx Signature Course</h6>
+        <h3>AP* Computer Science A MasterClass</h3>
+        <p class="lead mb-4">A college-level high school computer science course aimed at helping students earn potential college credit and inspiring them to pursue computer science.</p>
+        <div class="row hidden-md-down">
+          <div class="col-sm-6 mb-3">
+            <h5>High School Students</h5>
+            <p>Peruse this course before making the decision to pursue this class at your high school. This course also functions as a self-study course if you're planning on taking the exam.</p>
+          </div>
+          <div class="col-sm-6">
+            <h5>College Students</h5>
+            <p>College students can still benefit with this course as lectures are reflective of material taught in a standard Introduction to Computer Science in Java course.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="block block-inverse block-secondary app-code-block">
+  <div class="container">
+    <div class="row app-align-center">
+      <div class="col-md-5 push-md-7">
+        <pre class="app-code">
+<span>1</span> 
+<span>2</span>  public class WebsiteDemo {
+<span>3</span>  
+<span>4</span>       public static void main(String[] args) {
+<span>5</span>          
+<span>6</span>          boolean lecture = true;
+<span>7</span>          boolean programming = true;
+<span>8</span>              
+<span>9</span>          if(lecture && programming){
+<span>10</span>      
+<span>11</span>             System.out.println("We use a lecture and programming approach!");
+<span>12</span>    
+<span>13</span>         }
+<span>14</span>      }
+<span>15</span>  }
+<span>16</span>  </pre>
+      </div>
+
+      <div class="col-md-6 pull-md-5">
+        <h6 class="text-muted text-uppercase">Learning Approach</h6>
+        <h3>Lectures and Programming Practice that make computer science easy for anyone.</h3>
+        <p class="lead mb-4 text-muted">To ensure all computer science material is taught, we utilize lectures to introduce students to concepts, then use programming to reinforce those skills.</p>
+        <button class="btn btn-secondary btn-lg btn-borderless" onclick="window.location.href='https://github.com/acetlinx/AP-Computer-Science-A-MasterClass';">
+          Course GitHub
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block block-inverse app-high-praise"
+     style="background-image: url(assets/img/startup-3.jpg);">
+    <div class="container">
+      <div class="row app-align-center py-3">
+        <div class="col-sm-5 push-sm-7 py-5">
+          <h6 class="text-muted text-uppercase mb-2">Mission</h6>
+          <h3 class="mb-4">“The mission here at Acetlinx is to democratize the field of computer science to all students of different backgrounds and circumstances, boosting female and minority representation in the field.”</h3>
+          <p class="mb-4 text-muted">Fauzan Amjad, founder of Acetlinx</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="block block-secondary app-block-marketing-grid">
+  <div class="container text-xs-center">
+
+    <div class="row mb-5">
+      <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+        <h6 class="text-muted text-uppercase mb-2">Inside the course</h6>
+        <h3  class="mb-4">Information About the Course</h3>
+      </div>
+    </div>
+
+    <div class="row app-marketing-grid">
+      <div class="col-md-4 px-4 mb-5">
+        <img class="mb-1" src="assets/img/startup-14.svg">
+        <p><strong>Course Website.</strong> Course website is organized in a beginner-friendly manner that reinforces previous skills.</p>
+      </div>
+      <div class="col-md-4 px-4 mb-5">
+        <img class="mb-1" src="assets/img/startup-11.svg">
+        <p><strong>16+ Hours of Content.  </strong>Lectures and Programming material to thoroughly explain computer science material.</p>
+      </div>
+      <div class="col-md-4 px-4 mb-5">
+        <img class="mb-1" src="assets/img/startup-13.svg">
+        <p><strong>Mobile-Friendly.</strong> The course website is specifically designed to adjust to different devices with different operating systems.</p>
+      </div>
+    </div>
+
+    
+    </div>
+  </div>
+</div>
+
+<div class="block app-price-plans">
+  <div class="container text-center">
+
+    <div class="row mb-5">
+      <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+        <h6 class="text-muted text-uppercase mb-2">The Money Situation</h6>
+        <h3>There's no catch. Free for everyone. Donate to support this project.</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 px-4 pb-2 mb-5">
+        <div class="px-2 mb-2">
+          <h6 class="text-muted text-uppercase mb-4">Personal Study</h6>
+          <h1>FREE</h1>
+          <p class="pb-2">Don't worry about money. Just learn.</p>
+        </div>
+
+        <ul class="list-unstyled list-bordered text-xs-left my-4">
+          <li class="py-4"><strong>FREE</strong> Lecture Videos</li>
+          <li class="py-4"><strong>FREE</strong> Access to Material</li>
+          <li class="py-4"><strong>FREE</strong> Course Discussion</li>
+        </ul>
+
+        <button onclick="window.location.href='https://forms.gle/L8CWMpqGVej28CmA8';" class="btn btn-lg btn-primary btn-block" >
+          Join <span class="hidden-lg-down"> Community</span>
+        </button>
+      </div>
+
+      <div class="col-md-4 px-4 pb-2 mb-5">
+        <div class="px-2">
+          <h6 class="text-muted text-uppercase mb-4">Classroom Study</h6>
+          <h1>DONATION</h1>
+          <p class="pb-2">Only donate if you have the resources. </p>
+        </div>
+
+        <ul class="list-unstyled list-bordered text-xs-left my-4">
+          <li class="py-4"><strong>FREE</strong> Lecture Slides</li>
+          <li class="py-4"><strong>FREE</strong> Assignments</li>
+          <li class="py-4"><strong>FREE</strong> Review Material</li>
+        </ul>
+
+        <button class="btn btn-lg btn-primary btn-block">
+          Donate <span class="hidden-lg-down"> </span>
+        </button>
+      </div>
+
+      <div class="col-md-4 px-4 pb-1 mb-5">
+        <div class="px-2">
+          <h6 class="text-muted text-uppercase mb-4">School District</h6>
+          <h1>PARTNER</h1>
+          <p class="pb-2">Bring computer science courses to students.</p>
+        </div>
+
+        <ul class="list-unstyled list-bordered text-xs-left my-4">
+          <li class="py-4">Curriculum Development</li>
+          <li class="py-4">Computer Science Club</li>
+          <li class="py-4">Workshops</li>
+        </ul>
+
+        <button class="btn btn-lg btn-primary btn-block" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScYluC5ap79HYXexwVcdRomA6ow8RP2KGKH2VvlToXPNhx6ew/viewform?usp=sf_link';">
+          Partner <span class="hidden-lg-down" > with Us</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="block block-inverse app-footer">
+ <div class="container">
+    <div class="row">
+      <div class="col-md-5 mb-5">
+        <ul class="list-unstyled list-spaced">
+          <li class="mb-2"><h6 class="text-uppercase">About</h6></li>
+          <li class="text-muted">
+             Acetlinx is a developing non-profit determined to produce free courses/resources that some students may not be able to access. Areas of interest include computer science and STEM-related subjects.
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<p>*AP is a registered trademark of the CollegeBoard, which is not affiliated nor endorses this project. </p>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+  </body>
+</html>
+
